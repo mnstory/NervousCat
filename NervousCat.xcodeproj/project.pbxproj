@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C84E8FFB1AA2AEB900ACD48E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84E8FFA1AA2AEB900ACD48E /* AppDelegate.swift */; };
+		C84E8FFD1AA2AEB900ACD48E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84E8FFC1AA2AEB900ACD48E /* ViewController.swift */; };
+		C84E90001AA2AEB900ACD48E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C84E8FFE1AA2AEB900ACD48E /* Main.storyboard */; };
+		C84E90021AA2AEB900ACD48E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C84E90011AA2AEB900ACD48E /* Images.xcassets */; };
+		C84E90051AA2AEB900ACD48E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C84E90031AA2AEB900ACD48E /* LaunchScreen.xib */; };
+		C84E90111AA2AEB900ACD48E /* NervousCatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84E90101AA2AEB900ACD48E /* NervousCatTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C84E900B1AA2AEB900ACD48E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C84E8FED1AA2AEB900ACD48E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C84E8FF41AA2AEB900ACD48E;
+			remoteInfo = NervousCat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C84E8FF51AA2AEB900ACD48E /* NervousCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NervousCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84E8FF91AA2AEB900ACD48E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C84E8FFA1AA2AEB900ACD48E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C84E8FFC1AA2AEB900ACD48E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C84E8FFF1AA2AEB900ACD48E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C84E90011AA2AEB900ACD48E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C84E90041AA2AEB900ACD48E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C84E900A1AA2AEB900ACD48E /* NervousCatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NervousCatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84E900F1AA2AEB900ACD48E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C84E90101AA2AEB900ACD48E /* NervousCatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NervousCatTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C84E8FF21AA2AEB900ACD48E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84E90071AA2AEB900ACD48E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C84E8FEC1AA2AEB900ACD48E = {
+			isa = PBXGroup;
+			children = (
+				C84E8FF71AA2AEB900ACD48E /* NervousCat */,
+				C84E900D1AA2AEB900ACD48E /* NervousCatTests */,
+				C84E8FF61AA2AEB900ACD48E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C84E8FF61AA2AEB900ACD48E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C84E8FF51AA2AEB900ACD48E /* NervousCat.app */,
+				C84E900A1AA2AEB900ACD48E /* NervousCatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C84E8FF71AA2AEB900ACD48E /* NervousCat */ = {
+			isa = PBXGroup;
+			children = (
+				C84E8FFA1AA2AEB900ACD48E /* AppDelegate.swift */,
+				C84E8FFC1AA2AEB900ACD48E /* ViewController.swift */,
+				C84E8FFE1AA2AEB900ACD48E /* Main.storyboard */,
+				C84E90011AA2AEB900ACD48E /* Images.xcassets */,
+				C84E90031AA2AEB900ACD48E /* LaunchScreen.xib */,
+				C84E8FF81AA2AEB900ACD48E /* Supporting Files */,
+			);
+			path = NervousCat;
+			sourceTree = "<group>";
+		};
+		C84E8FF81AA2AEB900ACD48E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C84E8FF91AA2AEB900ACD48E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C84E900D1AA2AEB900ACD48E /* NervousCatTests */ = {
+			isa = PBXGroup;
+			children = (
+				C84E90101AA2AEB900ACD48E /* NervousCatTests.swift */,
+				C84E900E1AA2AEB900ACD48E /* Supporting Files */,
+			);
+			path = NervousCatTests;
+			sourceTree = "<group>";
+		};
+		C84E900E1AA2AEB900ACD48E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C84E900F1AA2AEB900ACD48E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C84E8FF41AA2AEB900ACD48E /* NervousCat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C84E90141AA2AEB900ACD48E /* Build configuration list for PBXNativeTarget "NervousCat" */;
+			buildPhases = (
+				C84E8FF11AA2AEB900ACD48E /* Sources */,
+				C84E8FF21AA2AEB900ACD48E /* Frameworks */,
+				C84E8FF31AA2AEB900ACD48E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NervousCat;
+			productName = NervousCat;
+			productReference = C84E8FF51AA2AEB900ACD48E /* NervousCat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C84E90091AA2AEB900ACD48E /* NervousCatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C84E90171AA2AEB900ACD48E /* Build configuration list for PBXNativeTarget "NervousCatTests" */;
+			buildPhases = (
+				C84E90061AA2AEB900ACD48E /* Sources */,
+				C84E90071AA2AEB900ACD48E /* Frameworks */,
+				C84E90081AA2AEB900ACD48E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C84E900C1AA2AEB900ACD48E /* PBXTargetDependency */,
+			);
+			name = NervousCatTests;
+			productName = NervousCatTests;
+			productReference = C84E900A1AA2AEB900ACD48E /* NervousCatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C84E8FED1AA2AEB900ACD48E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "韦体东";
+				TargetAttributes = {
+					C84E8FF41AA2AEB900ACD48E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C84E90091AA2AEB900ACD48E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C84E8FF41AA2AEB900ACD48E;
+					};
+				};
+			};
+			buildConfigurationList = C84E8FF01AA2AEB900ACD48E /* Build configuration list for PBXProject "NervousCat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C84E8FEC1AA2AEB900ACD48E;
+			productRefGroup = C84E8FF61AA2AEB900ACD48E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C84E8FF41AA2AEB900ACD48E /* NervousCat */,
+				C84E90091AA2AEB900ACD48E /* NervousCatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C84E8FF31AA2AEB900ACD48E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84E90001AA2AEB900ACD48E /* Main.storyboard in Resources */,
+				C84E90051AA2AEB900ACD48E /* LaunchScreen.xib in Resources */,
+				C84E90021AA2AEB900ACD48E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84E90081AA2AEB900ACD48E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C84E8FF11AA2AEB900ACD48E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84E8FFD1AA2AEB900ACD48E /* ViewController.swift in Sources */,
+				C84E8FFB1AA2AEB900ACD48E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84E90061AA2AEB900ACD48E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84E90111AA2AEB900ACD48E /* NervousCatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C84E900C1AA2AEB900ACD48E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C84E8FF41AA2AEB900ACD48E /* NervousCat */;
+			targetProxy = C84E900B1AA2AEB900ACD48E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C84E8FFE1AA2AEB900ACD48E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C84E8FFF1AA2AEB900ACD48E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C84E90031AA2AEB900ACD48E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C84E90041AA2AEB900ACD48E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C84E90121AA2AEB900ACD48E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C84E90131AA2AEB900ACD48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C84E90151AA2AEB900ACD48E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NervousCat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C84E90161AA2AEB900ACD48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NervousCat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C84E90181AA2AEB900ACD48E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NervousCatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NervousCat.app/NervousCat";
+			};
+			name = Debug;
+		};
+		C84E90191AA2AEB900ACD48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NervousCatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NervousCat.app/NervousCat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C84E8FF01AA2AEB900ACD48E /* Build configuration list for PBXProject "NervousCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C84E90121AA2AEB900ACD48E /* Debug */,
+				C84E90131AA2AEB900ACD48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C84E90141AA2AEB900ACD48E /* Build configuration list for PBXNativeTarget "NervousCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C84E90151AA2AEB900ACD48E /* Debug */,
+				C84E90161AA2AEB900ACD48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C84E90171AA2AEB900ACD48E /* Build configuration list for PBXNativeTarget "NervousCatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C84E90181AA2AEB900ACD48E /* Debug */,
+				C84E90191AA2AEB900ACD48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C84E8FED1AA2AEB900ACD48E /* Project object */;
+}
